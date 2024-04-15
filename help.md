@@ -8,7 +8,7 @@ layout: page
 1. 下载压缩包并解压。
 2. 配置 AI 模型：
 
-   1. 使用本地(Local)模型，需要获取 Mortal 模型文件 （pth 文件），放到 'models' 目录中。本项目使用兼容 Akagi 的模型文件，获取模型请参见 [Akagi](https://github.com/shinkuan/Akagi?tab=readme-ov-file#installation). 或者
+   1. 使用本地(Local)模型，需要获取 Mortal 模型文件 （pth 文件），放到 'models' 目录中。本项目使用兼容 Akagi 的模型文件，获取模型请参见<a href="https://github.com/shinkuan/Akagi" target="_blank"> Akagi Github </a> 或者
    2. 使用在线模型（MJAPI 支持自动注册）
 4. 运行 MahjongCopilot，点击雀魂按钮，在内置浏览器中启动雀魂客户端。
 
@@ -44,17 +44,12 @@ layout: page
 
 ## 鸣谢 / Credit
 
-- 基于 Mortal 模型和 MJAI 协议
-  Based on Mortal Model an MJAI protocol
-  
-  Mortal: https://github.com/Equim-chan/Mortal
-- 设计和功能实现基于 Akagi
-  Design and implementation based on Akagi
-  
-  Akagi: https://github.com/shinkuan/Akagi
-- 参考 Reference
-  Mahjong Soul API: https://github.com/MahjongRepository/mahjong_soul_api
-- MJAI协议参考 / MJAI Protocol Reference
-  
-  MJAI: https://mjai.app
+- 基于 Mortal 模型和 MJAI 协议:
+  <a href="https://github.com/Equim-chan/Mortal" target="_blank"> Mortal Github </a>
 
+- 设计和功能实现基于 Akagi:
+  <a href="https://github.com/shinkuan/Akagi" target="_blank"> Akagi Github </a>
+- 参考项目: <a href="https://github.com/MahjongRepository/mahjong_soul_api" target="_blank"> Mahjong Soul API </a>
+
+- MJAI协议参考:
+  <a href="https://mjai.app" target="_blank"> mjai.app </a>
