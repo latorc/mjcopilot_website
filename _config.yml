@@ -85,6 +85,7 @@ defaults:
 
 # Exclude
 exclude:
+  - update/
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
