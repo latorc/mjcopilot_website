@@ -1,5 +1,12 @@
 ### mjcopilot.com
 
-using jekyll
+Built using jekyll
 
 
+```
+bundle install
+```
+
+```
+bundle exec jekyll s
+```
