@@ -21,12 +21,12 @@
             </div> -->
             <!-- navbar items | right side -->
             <div class="navbar-end">
-                <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
+                <a class="navbar-item {% if page.layout == 'index' %}is-active{% endif %}"
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">主页</a>
-                <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
+                <a class="navbar-item {% if page.layout == 'page' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/help">帮助</a>
                 <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
-                    href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>
+                    href="{{site.url}}{{site.baseurl}}/blog">博客</a>
             </div>
 
         </div>
