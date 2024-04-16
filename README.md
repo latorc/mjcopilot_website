@@ -2,8 +2,7 @@
 
 Website source code
 Built using Jekyll
-template: 
-
+template:
 
 ### To develope:
 
@@ -22,8 +21,10 @@ bundle exec jekyll s
 
 ### Notes:
 
-Index Page: using layout and include showcase.html
-Help Page: help.md
+- Cloudflare Pages provides free hosting for static website
+- Cloudflare Workers can be used to build proxy (update/download code below)
+- Index Page: _layout index and _include showcase.html
+- Help Page: help.md
 
 ### update.mjcopilot.com
 
@@ -121,6 +122,5 @@ async function handleRequest(request) {
     }
   });
 }
-
 ```
 
