@@ -4,21 +4,21 @@ markdown: kramdown
 # URL of the Site
 url: 'https://mjcopilot.com'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl:
 
 # Title of the Site
 title: Mahjong Copilot
 # Description of the Site
-description: 雀魂游戏实时 AI 指导
+description: 麻将 Copilot - 雀魂游戏实时 AI 指导
 # URL of Image of the Site
-site-image: /assets/images/meta.jpg
+site-image: /assets/images/logo.png
 # Keywords of the Site
-site-keywords: Mahjong Copilot, Riichi
+site-keywords: Mahjong Copilot, Riichi, 雀魂, AI, 立直麻将
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: /assets/images/icon.ico
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/ms_bg.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -38,12 +38,12 @@ spotify_username:
 google-analytics:
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname:
 
 # Name of the Author
 author-name: Lator
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/profile_cat.jpg
 # 60 Words About the Author
 author-about: 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
