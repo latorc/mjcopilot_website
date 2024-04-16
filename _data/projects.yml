@@ -1,17 +1,17 @@
 - name: Mortal AI 工具
   image: https://github.com/Equim-chan/Mortal/raw/main/docs/src/assets/logo.png
   link: https://mjai.ekyu.moe/
-  description: Mortal 作者的牌谱检讨网站，使用 Mortal 等模型分析牌谱。
+  description: Mortal 作者的牌谱检讨网站，使用 Mortal 等模型分析牌谱
 
 - name: 雀魂牌谱屋
   link: https://amae-koromo.sapk.ch/
   image: https://assets.st-note.com/production/uploads/images/68489569/picture_pc_6bc9b87a042b7cfb03008bb660035c7e.png?width=2000&height=2000&fit=bounds&format=jpg&quality=85
-  description: 雀魂游戏的第三方牌谱数据库，可以查询玩家的对局牌谱。
+  description: 雀魂游戏的第三方牌谱数据库，可以查询玩家的对局牌谱和统计数据
 
 - name: 何切模拟器
   link: https://pystyle.info/apps/mahjong-nanikiru-simulator/
   image: https://github.com/nekobean/mahjong-cpp/raw/master/docs/mahjong-nanikiru-simulator.png
-  description: C++编写基于算法的何切模拟器
+  description: 基于算法的何切模拟器，C++编写的开源项目
 
 
 - name: NAGA AI
@@ -24,3 +24,9 @@
   link: https://maj.lntusoft.com/
   image: https://pp.myapp.com/ma_pic2/0/shot_54332393_1_1703489634/0
   description: 日麻点数计算工具（移动端），外加练习工具
+
+
+- name: 立直麻将雀庄查询
+  link: https://r-mj.com/
+  image: /assets/images/mjmap.png
+  description: 全国立直麻将雀庄地址和信息查询
