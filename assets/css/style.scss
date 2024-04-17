@@ -116,6 +116,7 @@ a.navbar-item.is-active {
     }
 
     #blog-card {
+        max-width: 1600px;
         transition: all 0.25s ease;
         margin-bottom: 0.5vmax;
         transform: scale(0.85);
@@ -317,6 +318,8 @@ a.navbar-item.is-active {
         margin: 0.15rem auto;
     }
     .content {
+        max-width: 1000px;
+        margin: 0 auto; /* Center the content horizontally */
         ol, ul, blockquote {
             display: inline-block;
         }
@@ -336,9 +339,10 @@ a.navbar-item.is-active {
     }
 
     .container {
-        margin: 2.5rem auto;
+        max-width: 1000px;
+        margin: 0 auto;
         word-break: break-word;
-        max-width: -webkit-fill-available;
+        // max-width: -webkit-fill-available;
     }
 
     #disqus_thread {
@@ -348,6 +352,8 @@ a.navbar-item.is-active {
 
 #page-section {
     .content {
+        max-width: 1000px;
+        margin: 0 auto; /* Center the content horizontally */
         ul, ol, blockquote {
             display: inline-block;
         }
