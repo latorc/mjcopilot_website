@@ -9,7 +9,7 @@
                 {{ post.content | truncate: 300 | strip_html | strip_newlines | strip | escape }}
                 <hr class="has-background-grey">
                 <span class="has-text-grey">发布于
-                    <span class="has-text-weight-semibold">{{ post.date | date: "%-B %d, %Y" }}</span>
+                    <span class="has-text-weight-semibold">{{ post.date | date: "%Y年%m月%d日" }}</span>
                 </span>
                  | 
                 <i class="fas fa-clock"></i>
