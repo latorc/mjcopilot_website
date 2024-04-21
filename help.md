@@ -2,7 +2,6 @@
 title: 麻将 Copilot 帮助信息
 layout: page
 ---
-
 ## 运行方法
 
 1. <a href="https://download.mjcopilot.com">下载压缩包</a> 并解压。
@@ -36,7 +35,7 @@ layout: page
 7. 自动加入：按设置中选择的级别和模式，自动加入下一局游戏；自动加入操作需要从主菜单或游戏中开始。可以为自动加入设置计时器，计时结束时停止自动加入。
 8. 状态栏中，显示模型信息，以及主程序和游戏客户端状态（括号中显示刷新率，作为性能参考；通常数值在 100 以上说明程序运行流畅；进行自动打牌操作时，浏览器刷新率会下降）。如果程序或 AI 发生错误，状态栏中会显示错误信息。
 
-![GUI](\assets\images\gui.png){: height="50"}
+![GUI](\assets\images\gui.png)
 
 ### 设置项说明
 
@@ -53,20 +52,22 @@ layout: page
    - 回复表情概率：以一定概率回复其他玩家的表情。打牌时不会触发；有最短触发间隔 (settings.json 中 auto_emoji_intervel 数值)。
    - 基础延迟随机范围：自动打牌前的延迟。自动打牌会根据场况和打的牌，会在基础延迟上增加额外延迟；例如，东家第一巡会加几秒钟延迟，让理牌动画完成。
 
-![Settings](\assets\images\settings.png){: height="50"}
+![Settings](\assets\images\settings.png)
 
 ### 模型配置
 
 这里介绍不同模型类型和需要的配置。
 
-1. Local: 兼容 Akagi 的本地 Mortal 模型。需要获取模型文件(.pth文件)并放到 `models` 目录下，并在设置中“本地模型文件”项，选择使用该模型文件。模型文件的获取和介绍，请参见 Akagi 作者 shinkuan 的 <a href="https://github.com/shinkuan/Akagi">Github</a> 和 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 频道</a>。
-   
-   三麻相关文件，限 Discord 频道的捐献者 (Donor) 获取。三麻模型设置步骤：
-   1）获取三麻支持库 libriichi3p 相关库文件 (bot_3p_0.1.1.zip) 。解压后，将所有 libriichi3p 目录中的文件 (pyd 和 so 文件)放到 `libriichi3p` 目录下。
-   2）获取三麻模型文件 (pth文件)，放到 `models` 目录下，并在程序设置项“本地模型文件(三麻)”选择该模型文件。
-   3）模型支持的游戏类型会显示在状态栏，"模型: Local" 后的括号内。
-2. MJAPI: (作者 9ns4esyx) 开发的在线麻将 AI API. 使用 MJAPI 时，可以填写已有的用户名和密钥。或者，将用户名和密钥 (Secret) 留空，软件会自动注册新用户并登录。MJAPI 有不同风格的模型可选择，登陆后会刷新模型选项，并显示 API 用量。暂时只支持四麻模式。
-   4月13日更新的 MJAPI 地址：（临时域名有总连接数限制，而且不保证长久有效，之后也可能会变。服务器在国外，不同运营商的网络连通性不一，请自己测试）
+#### 1. Local
+兼容 Akagi 的本地 Mortal 模型。需要获取模型文件(.pth文件)并放到 `models` 目录下，并在设置中“本地模型文件”项，选择使用该模型文件。模型文件的获取和介绍，请参见 Akagi 作者 shinkuan 的 <a href="https://github.com/shinkuan/Akagi">Github</a> 和 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 频道</a>。     
+**三麻模型设置步骤：**三麻相关文件，限 Discord 频道的捐献者 (Donor) 获取。  
+1. 获取三麻支持库 libriichi3p 相关库文件 (bot_3p_0.1.1.zip) 。解压后，将所有 libriichi3p 目录中的文件 (pyd 和 so 文件)放到 `libriichi3p` 目录下。
+2. 获取三麻模型文件 (pth文件)，放到 `models` 目录下，并在程序设置项“本地模型文件(三麻)”选择该模型文件。
+3. 模型支持的游戏类型会显示在状态栏，"模型: Local" 后的括号内。
+
+#### 2. MJAPI
+(作者 9ns4esyx) 开发的在线麻将 AI API. 使用 MJAPI 时，可以填写已有的用户名和密钥。或者，将用户名和密钥 (Secret) 留空，软件会自动注册新用户并登录。MJAPI 有不同风格的模型可选择，登陆后会刷新模型选项，并显示 API 用量。暂时只支持四麻模式。
+4月13日更新的 MJAPI 地址：（临时域名有总连接数限制，而且不保证长久有效，之后也可能会变。服务器在国外，不同运营商的网络连通性不一，请自己测试）
 
 - 临时域名：`https://cdt-authentication-consultation-significance.trycloudflare.com`
 - 稳定域名：`https://mjai.7xcnnw11phu.eu.org`
@@ -102,5 +103,7 @@ License details: https://github.com/latorc/MahjongCopilot/blob/main/LICENSE
 
 ## 讨论 / Discussion
 * QQ群：834105526 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=Mec5daqIyUsuZjCLojH_t88hQV6luPxl&jump_from=webapi&authKey=nNSpmIQY3ieVau/oLTF9eNO6YTqAm1+Ne3iE3zpqmFrj61iAUDu/GSpA38g93Zlx"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="加入QQ群" title="麻将 Copilot"></a>
-* 欢迎提交 Github Issues 反馈问题。
+* 欢迎提交 Github Issues 反馈问题。  
 
+
+![Logo](/assets/images/logo.png){: height="200px" width="200px"}
