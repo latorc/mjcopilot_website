@@ -106,4 +106,4 @@ License details: https://github.com/latorc/MahjongCopilot/blob/main/LICENSE
 * 欢迎提交 Github Issues 反馈问题。  
 
 
-![Logo](/assets/images/logo.png){: style="max-height: 200px"}
+![Logo](/assets/images/logo.png){: style="max-height: 150px"}

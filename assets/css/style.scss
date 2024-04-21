@@ -44,7 +44,7 @@ a.navbar-item.is-active {
     background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
-
+    
     &::before {
         filter: blur(0.15rem);
         background-image: url({{site.heroimage}});
@@ -58,8 +58,12 @@ a.navbar-item.is-active {
         left: 0px;
         position: absolute;
         opacity: 0.15;
-        content: "";
+        content: "";        
     }
+}
+.container{
+    max-width: min(1000px, 100vw);
+    margin: auto;
 }
 .title {
     margin: auto 0.75rem!important;
@@ -318,7 +322,7 @@ a.navbar-item.is-active {
         margin: 0.15rem auto;
     }
     .content {
-        max-width: min(900px, 100vw);
+        max-width: min(900px, 90vw);
         margin: 0 auto; /* Center the content horizontally */
         ol, ul, blockquote {
             display: inline-block;
@@ -352,7 +356,7 @@ a.navbar-item.is-active {
 
 #page-section {
     .content {
-        max-width: min(900px, 90vmax);
+        max-width: min(900px, 90vw);
         margin: 0 auto; /* Center the content horizontally */
         ul, ol, blockquote {
             display: inline-block;

@@ -7,9 +7,9 @@ url: 'https://mjcopilot.com'
 baseurl:
 
 # Title of the Site
-title: Mahjong Copilot
+title: 麻将 Copilot
 # Description of the Site
-description: 麻将 Copilot - 雀魂游戏实时 AI 指导
+description: 雀魂游戏实时 AI 指导
 # URL of Image of the Site
 site-image: /assets/images/logo.png
 # Keywords of the Site
