@@ -318,7 +318,7 @@ a.navbar-item.is-active {
         margin: 0.15rem auto;
     }
     .content {
-        max-width: 1000px;
+        max-width: min(900px, 100vw);
         margin: 0 auto; /* Center the content horizontally */
         ol, ul, blockquote {
             display: inline-block;
@@ -352,7 +352,7 @@ a.navbar-item.is-active {
 
 #page-section {
     .content {
-        max-width: 1000px;
+        max-width: min(900px, 90vmax);
         margin: 0 auto; /* Center the content horizontally */
         ul, ol, blockquote {
             display: inline-block;

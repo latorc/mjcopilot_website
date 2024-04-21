@@ -35,7 +35,7 @@ layout: page
 7. 自动加入：按设置中选择的级别和模式，自动加入下一局游戏；自动加入操作需要从主菜单或游戏中开始。可以为自动加入设置计时器，计时结束时停止自动加入。
 8. 状态栏中，显示模型信息，以及主程序和游戏客户端状态（括号中显示刷新率，作为性能参考；通常数值在 100 以上说明程序运行流畅；进行自动打牌操作时，浏览器刷新率会下降）。如果程序或 AI 发生错误，状态栏中会显示错误信息。
 
-![GUI](\assets\images\gui.png)
+![GUI](\assets\images\gui.png){: style="max-width: 100%"}
 
 ### 设置项说明
 
@@ -52,7 +52,7 @@ layout: page
    - 回复表情概率：以一定概率回复其他玩家的表情。打牌时不会触发；有最短触发间隔 (settings.json 中 auto_emoji_intervel 数值)。
    - 基础延迟随机范围：自动打牌前的延迟。自动打牌会根据场况和打的牌，会在基础延迟上增加额外延迟；例如，东家第一巡会加几秒钟延迟，让理牌动画完成。
 
-![Settings](\assets\images\settings.png)
+![Settings](\assets\images\settings.png){: style="max-width: 100%"}
 
 ### 模型配置
 
@@ -106,4 +106,4 @@ License details: https://github.com/latorc/MahjongCopilot/blob/main/LICENSE
 * 欢迎提交 Github Issues 反馈问题。  
 
 
-![Logo](/assets/images/logo.png){: height="200px" width="200px"}
+![Logo](/assets/images/logo.png){: style="max-height: 200px"}
