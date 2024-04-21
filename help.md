@@ -9,7 +9,7 @@ layout: page
 2. 配置 AI 模型：
    1. 使用本地 (Local) 模型，需要获取 Mortal 模型文件 （pth 文件），放到 `models` 目录中。本项目使用兼容 Akagi 的模型文件，获取模型请参见<a href="https://github.com/shinkuan/Akagi" target="_blank"> Akagi Github </a>. 或者
    2. 使用在线模型（MJAPI 支持自动注册）
-3. 运行 MahjongCopilot，点击左上方雀魂按钮，启动内置浏览器和雀魂网页客户端。
+3. 运行 MahjongCopilot；点击设置按钮，配置模型；点击左上方雀魂按钮，启动内置浏览器和雀魂网页客户端。
 
 ## 使用帮助
 
@@ -46,12 +46,12 @@ layout: page
 4. MITM服务端口、上游代理、自动代理雀魂客户端：见前两节游戏客户端帮助。
 5. AI 模型类型：选择使用的模型类型。不同模型有不同的配置项。详见下一节说明。
 6. 自动打牌设置：
-   - 鼠标移动随机化：鼠标点击前，随机移动几次，避免被检测为自动化操作。还有概率以鼠标拖拽出牌。
+   - 鼠标移动随机化：鼠标点击前，随机移动几次，避免被检测为自动化操作。
    - 鼠标空闲移动：鼠标空闲时（比如他人回合）一定概率随机移动。
-   - 鼠标拖拽出牌：使用鼠标拖动代替点击来出牌。
+   - 鼠标拖拽出牌：使用鼠标拖动代替点击来出牌。某些用户会碰到鼠标点击出牌失败的情况，请勾选此项。
    - AI选项随机化（去重）：自动打牌时，根据模型推荐的前三选项，按概率（权重）随机选取其中之一。可以在分析牌谱时，降低模型重合率。0 为关闭（仅选择权重最高项），5 为最高（按概率权重选择），1-4 的随机性位于中间。计算方式：取原概率的(5/n)次方，再归一概率，按概率选择。
    - 回复表情概率：以一定概率回复其他玩家的表情。打牌时不会触发；有最短触发间隔 (settings.json 中 auto_emoji_intervel 数值)。
-   - 基础延迟随机范围：自动打牌前的延迟。根据场况和打的牌，会在基础延迟上增加额外延迟（例如：东家第一巡会加几秒钟延迟，让理牌动画完成）。
+   - 基础延迟随机范围：自动打牌前的延迟。自动打牌会根据场况和打的牌，会在基础延迟上增加额外延迟；例如，东家第一巡会加几秒钟延迟，让理牌动画完成。
 
 ![Settings](\assets\images\settings.png){: height="50"}
 
@@ -85,5 +85,22 @@ layout: page
 - MJAI协议参考:
   <a href="https://mjai.app" target="_blank"> mjai.app </a>
 
-QQ群：834105526 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=Mec5daqIyUsuZjCLojH_t88hQV6luPxl&jump_from=webapi&authKey=nNSpmIQY3ieVau/oLTF9eNO6YTqAm1+Ne3iE3zpqmFrj61iAUDu/GSpA38g93Zlx"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="加入QQ群" title="麻将 Copilot"></a>
+## 许可 / License
+本项目采用 GNU GPL v3 许可协议。 协议全文请见 <a href="https://github.com/latorc/MahjongCopilot/blob/main/LICENSE" target="_blank"> LICENSE </a>
+
+```
+Mahjong Copilot Copyright (C) 2024 Latorc
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it under certain conditions.
+License details: https://github.com/latorc/MahjongCopilot/blob/main/LICENSE
+   
+麻将 Copilot 版权所有 (C) 2024 Latorc
+本程序绝对没有任何保证；
+这是自由软件，欢迎您基于某些条件重新分发它。
+协议详情：https://github.com/latorc/MahjongCopilot/blob/main/LICENSE
+```
+
+## 讨论 / Discussion
+* QQ群：834105526 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=Mec5daqIyUsuZjCLojH_t88hQV6luPxl&jump_from=webapi&authKey=nNSpmIQY3ieVau/oLTF9eNO6YTqAm1+Ne3iE3zpqmFrj61iAUDu/GSpA38g93Zlx"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="加入QQ群" title="麻将 Copilot"></a>
+* 欢迎提交 Github Issues 反馈问题。
 
