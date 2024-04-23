@@ -62,7 +62,7 @@ layout: page
 #### 1. Local
 兼容 Akagi 的本地 Mortal 模型。需要获取模型文件(.pth文件)并放到 `models` 目录下，并在设置中“本地模型文件”项，选择使用该模型文件。模型文件的获取和介绍，请参见 Akagi 作者 shinkuan 的 <a href="https://github.com/shinkuan/Akagi">Github</a> 和 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 频道</a>。     
 **三麻模型设置步骤：**三麻相关文件，限 Discord 频道的捐献者 (Donor) 获取。  
-1. 获取三麻支持库 libriichi3p 相关库文件 (bot_3p_0.1.1.zip) 。解压后，将所有 libriichi3p 目录中的文件 (pyd 和 so 文件)放到 `libriichi3p` 目录下。
+1. 获取三麻支持库 libriichi3p 相关库文件 (bot_3p_0.1.1.zip) 。将压缩包中 libriichi 目录中的所有文件 (pyd 和 so 文件)放到程序目录 `libriichi3p` 下。
 2. 获取三麻模型文件 (pth文件)，放到 `models` 目录下，并在程序设置项“本地模型文件(三麻)”选择该模型文件。
 3. 模型支持的游戏类型会显示在状态栏，"模型: Local" 后的括号内。
 
