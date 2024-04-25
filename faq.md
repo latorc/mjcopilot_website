@@ -4,8 +4,7 @@ layout: faq
 ---
 
 * Q: 软件怎么用呀？哪里下载呀？<br>  
-A: 常见问题和使用帮助：https://mjcopilot.com/help <br>  
-下载见https://mjcopilot.com 或者 Github 或者 QQ 群文件。
+A: 请先看<a href="https://mjcopilot.com/help">使用帮助</a>。下载见<a href="https://mjcopilot.com">主页</a>或者 Github Release 或者 QQ 群文件。
 <br>
 <br>
 * Q: 本地模型文件哪里下载呀？<br> 
