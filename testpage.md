@@ -1,6 +1,6 @@
 ---
 title: 测试页面
-layout: page
+layout: help
 ---
 
 # This is heading 1

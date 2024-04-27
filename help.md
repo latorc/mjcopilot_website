@@ -1,12 +1,12 @@
 ---
 title: 麻将 Copilot 帮助信息
-layout: page
+layout: help
 ---
 ## 运行方法
 
 1. <a href="https://download.mjcopilot.com">下载压缩包</a> 并解压。
 2. 配置 AI 模型：
-   1. 使用本地 (Local) 模型，需要获取 Mortal 模型文件 （pth 文件），放到 `models` 目录中。本项目使用兼容 Akagi 的模型文件，获取模型请参见<a href="https://github.com/shinkuan/Akagi" target="_blank"> Akagi Github </a>. 或者
+   1. 使用本地 (Local) 模型，需要获取 Mortal 模型文件 （pth 文件），放到 `models` 目录中。本项目使用兼容 Akagi 的模型文件，获取模型请参见<a href="https://github.com/shinkuan/Akagi/blob/main/README_CH.md#%E5%AE%89%E8%A3%9D" target="_blank"> Akagi Github </a>. 或者
    2. 使用在线模型（MJAPI 支持自动注册）
 3. 运行 MahjongCopilot；点击设置按钮，配置模型；点击左上方雀魂按钮，启动内置浏览器和雀魂网页客户端。
 
@@ -61,13 +61,11 @@ layout: page
 这里介绍不同模型类型和需要的配置。
 
 #### 1. Local
-兼容 Akagi 的本地 Mortal 模型。需要获取模型文件(.pth文件)并放到 `models` 目录下，并在设置中“本地模型文件”项，选择使用该模型文件。模型文件的获取和介绍，请参见 Akagi 作者 shinkuan 的 <a href="https://github.com/shinkuan/Akagi">Github</a> 和 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a>。     
-**三麻模型设置步骤：**三麻相关文件，限 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a>的捐献者 (Donor) 获取。  
-1. 去 Discord 服务器，获取 Donor 资格。
-2. 到 #bot-3p-zip 频道，下载三麻相关文件。
-3. 把压缩包 bot_3p_0.1.1.zip 中 libriichi 目录中的所有文件 (pyd 和 so 文件)放到程序目录 `libriichi3p` 下。
-4. 把另一个压缩包中三麻模型文件 (pth文件)，放到 `models` 目录下，并在程序设置项“本地模型文件(三麻)”选择该模型文件。
-5. 模型支持的游戏类型会显示在状态栏，"模型: Local" 后的括号内。
+兼容 Akagi 的本地 Mortal 模型。需要获取模型文件(.pth文件)并放到 `models` 目录下，并在设置中“本地模型文件”项，选择使用该模型文件。模型文件的获取和介绍，请参见 Akagi 作者 shinkuan 的 <a href="https://github.com/shinkuan/Akagi">Github</a> 和 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 频道</a>。     
+**三麻模型设置步骤：**三麻相关文件，限 Discord 频道的捐献者 (Donor) 获取。  
+1. 获取三麻支持库 libriichi3p 相关库文件 (bot_3p_0.1.1.zip) 。将压缩包中 libriichi 目录中的所有文件 (pyd 和 so 文件)放到程序目录 `libriichi3p` 下。
+2. 获取三麻模型文件 (pth文件)，放到 `models` 目录下，并在程序设置项“本地模型文件(三麻)”选择该模型文件。
+3. 模型支持的游戏类型会显示在状态栏，"模型: Local" 后的括号内。
 
 #### 2. AkagiOT
 Akagi 在线模型。限 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a> 的捐献者（Donor）获取。配置方法：
