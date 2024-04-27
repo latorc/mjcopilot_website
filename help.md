@@ -55,23 +55,37 @@ layout: page
 
 ![Settings](\assets\images\settings.png){: style="max-width: 100%"}
 
+
 ### 模型配置
 
 这里介绍不同模型类型和需要的配置。
 
 #### 1. Local
-兼容 Akagi 的本地 Mortal 模型。需要获取模型文件(.pth文件)并放到 `models` 目录下，并在设置中“本地模型文件”项，选择使用该模型文件。模型文件的获取和介绍，请参见 Akagi 作者 shinkuan 的 <a href="https://github.com/shinkuan/Akagi">Github</a> 和 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 频道</a>。     
-**三麻模型设置步骤：**三麻相关文件，限 Discord 频道的捐献者 (Donor) 获取。  
-1. 获取三麻支持库 libriichi3p 相关库文件 (bot_3p_0.1.1.zip) 。将压缩包中 libriichi 目录中的所有文件 (pyd 和 so 文件)放到程序目录 `libriichi3p` 下。
-2. 获取三麻模型文件 (pth文件)，放到 `models` 目录下，并在程序设置项“本地模型文件(三麻)”选择该模型文件。
-3. 模型支持的游戏类型会显示在状态栏，"模型: Local" 后的括号内。
+兼容 Akagi 的本地 Mortal 模型。需要获取模型文件(.pth文件)并放到 `models` 目录下，并在设置中“本地模型文件”项，选择使用该模型文件。模型文件的获取和介绍，请参见 Akagi 作者 shinkuan 的 <a href="https://github.com/shinkuan/Akagi">Github</a> 和 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a>。     
+**三麻模型设置步骤：**三麻相关文件，限 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a>的捐献者 (Donor) 获取。  
+1. 去 Discord 服务器，获取 Donor 资格。
+2. 到 #bot-3p-zip 频道，下载三麻相关文件。
+3. 把压缩包 bot_3p_0.1.1.zip 中 libriichi 目录中的所有文件 (pyd 和 so 文件)放到程序目录 `libriichi3p` 下。
+4. 把另一个压缩包中三麻模型文件 (pth文件)，放到 `models` 目录下，并在程序设置项“本地模型文件(三麻)”选择该模型文件。
+5. 模型支持的游戏类型会显示在状态栏，"模型: Local" 后的括号内。
 
-#### 2. MJAPI
+#### 2. AkagiOT
+Akagi 在线模型。限 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a> 的捐献者（Donor）获取。配置方法：
+1. 去 Discord 服务器，获得 Donor 资格。
+2. 到 #bot 频道，输入"!api_gen"，机器人会发送 API Key 给你。
+3. 到 #online-model 频道，查看 API 服务器地址（"server"字段）。
+4. 程序设置中，填写 AkagiOT 服务器地址和AkagiOT API Key, AI 模型类型选择"AkagiOT"并保存。
+
+#### 3. MJAPI
 (作者 9ns4esyx) 开发的在线麻将 AI API. 使用 MJAPI 时，可以填写已有的用户名和密钥。或者，将用户名和密钥 (Secret) 留空，软件会自动注册新用户并登录。MJAPI 有不同风格的模型可选择，登陆后会刷新模型选项，并显示 API 用量。暂时只支持四麻模式。
 4月13日更新的 MJAPI 地址：（临时域名有总连接数限制，而且不保证长久有效，之后也可能会变。服务器在国外，不同运营商的网络连通性不一，请自己测试）
 
 - 临时域名：`https://cdt-authentication-consultation-significance.trycloudflare.com`
 - 稳定域名：`https://mjai.7xcnnw11phu.eu.org`
+几个模型的区别：
+- "baseline"和 mortal 在线的 v4 模型重合率最高，但是打不过"defensive"和"aggressive"，在低段位场可能比较合适。
+- "aggressive"以提高四位率的代价提高一位率，但是需要对手有一定的水平，因为更加依靠读牌和对手合理的防守。
+- "defensive"更偏重防守。
 
 ### 账号安全提示
 
