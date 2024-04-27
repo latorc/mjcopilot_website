@@ -59,20 +59,20 @@ layout: help
 
 ### 1. Local
 兼容 Akagi 的本地 Mortal 模型，支持四麻和三麻。配置方法：
-1. 获取模型文件：免费获取四麻模型文件 (mortal.pth)，请参见 Akagi 作者 Shinkuan 的 <a href="https://github.com/shinkuan/Akagi/blob/main/README_CH.md#%E5%AE%89%E8%A3%9D" target="_blank">Github说明</a> 和 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a>。
+1. 获取模型文件：免费获取四麻模型文件 (mortal.pth)，请参见 Akagi 作者 Shinkuan 的 <a href="https://github.com/shinkuan/Akagi/blob/main/README_CH.md#%E5%AE%89%E8%A3%9D" target="_blank">Github说明</a> 和 <a href="https://discord.com/invite/Z2wjXUK8bN" target="_blank">Discord 服务器</a>。
 2. 将模型文件(.pth文件)放到程序 `models` 目录下，并在设置中“本地模型文件”项，选择使用该模型文件。
 
 <a id="3p"></a>
 
 **三麻模型设置步骤：**
-1. 三麻相关文件，限 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a>的捐献者 (Donor) 获取。请到 Discord 服务器，获得 Donor 资格。 
+1. 三麻相关文件，限 <a href="https://discord.com/invite/Z2wjXUK8bN" target="_blank">Discord 服务器</a>的捐献者 (Donor) 获取。请到 Discord 服务器，获得 Donor 资格。 
 2. 到 #bot-3p-zip 频道下载三麻支持文件。
 3. 将压缩包 bot_3p_0.1.1.zip 中 libriichi 目录中的所有文件 (pyd 和 so 文件)解压放到程序目录 `libriichi3p` 下（不要有子目录）。
 4. 将另一个压缩包中的三麻模型文件 (pth文件)，放到 `models` 目录下，并在程序设置项“本地模型文件(三麻)”选择该模型文件。
 5. 模型支持的游戏类型会显示在状态栏，"模型: Local" 后的括号内。
 
 ### 2. AkagiOT
-Akagi 作者开发的在线模型，支持四麻和三麻。限 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a> 的捐献者（Donor）获取。配置方法：
+Akagi 作者开发的在线模型，支持四麻和三麻。限 <a href="https://discord.com/invite/Z2wjXUK8bN" target="_blank">Discord 服务器</a> 的捐献者（Donor）获取。配置方法：
 1. 去 Discord 服务器，获得 Donor 资格。
 2. 到 #bot 频道，输入"!api_gen"，机器人会发送 API Key 给你。
 3. 到 #online-model 频道，查看 API 服务器地址（"server"字段）。
@@ -123,7 +123,7 @@ License details: https://github.com/latorc/MahjongCopilot/blob/main/LICENSE
 ```
 
 # 讨论 / Discussion
-* QQ群：834105526 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=Mec5daqIyUsuZjCLojH_t88hQV6luPxl&jump_from=webapi&authKey=nNSpmIQY3ieVau/oLTF9eNO6YTqAm1+Ne3iE3zpqmFrj61iAUDu/GSpA38g93Zlx"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="加入QQ群" title="麻将 Copilot"></a>
+* QQ群：834105526 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=Mec5daqIyUsuZjCLojH_t88hQV6luPxl&jump_from=webapi&authKey=nNSpmIQY3ieVau/oLTF9eNO6YTqAm1+Ne3iE3zpqmFrj61iAUDu/GSpA38g93Zlx"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="加入QQ群" title="麻将 Copilot"></a>
 * 欢迎提交 Github Issues 反馈问题。  
 
 

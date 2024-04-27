@@ -21,7 +21,7 @@ A:<br>
 <br>
 <br>
 * Q: 可以用在三人麻将吗？怎么设置呀？<br>
-A: 三人麻将文件由 Akagi 的作者通过 Discord 服务器分发给捐赠者（Donor），关于如何捐赠和获取，请参见 <a href="https://github.com/shinkuan/Akagi/blob/main/README_CH.md" target="_blank"> Akagi Github </a> 和其 <a href="https://discord.com/invite/Z2wjXUK8bN">Discord 服务器</a>。Local 和 AkagiOT 模型支持三麻；模型的设置见<a href="{{site.url}}{{site.baseurl}}/help#models"> 帮助 </a>。
+A: 三人麻将文件由 Akagi 的作者通过 Discord 服务器分发给捐赠者（Donor），关于如何捐赠和获取，请参见 <a href="https://github.com/shinkuan/Akagi/blob/main/README_CH.md" target="_blank"> Akagi Github </a> 和其 <a href="https://discord.com/invite/Z2wjXUK8bN" target="_blank">Discord 服务器</a>。Local 和 AkagiOT 模型支持三麻；模型的设置见<a href="{{site.url}}{{site.baseurl}}/help#models"> 帮助 </a>。
 <br><br>
 * Q: 可以使用其他客户端吗，比如 Steam 和 Windows 客户端？<br>
 A: 可以，在设置中勾选“自动代理雀魂 Windows 客户端”并重启程序。注意，其他客户端不支持自动打牌，且客户端可能含有检测代码，从而增高封号风险。
