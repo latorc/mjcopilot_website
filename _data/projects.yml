@@ -1,5 +1,5 @@
 - name: Mortal AI 工具
-  image: https://github.com/Equim-chan/Mortal/raw/main/docs/src/assets/logo.png
+  image: /assets/images/project_mortal.jpg
   link: https://mjai.ekyu.moe/
   description: Mortal 作者的牌谱检讨网站，使用 Mortal 等模型分析牌谱
 
