@@ -23,10 +23,25 @@
 - name: 日麻点数计算器
   link: https://maj.lntusoft.com/
   image: https://pp.myapp.com/ma_pic2/0/shot_54332393_1_1703489634/0
-  description: 日麻点数计算工具（移动端），外加练习工具
+  description: 日麻点数计算和练习工具集
 
 
 - name: 立直麻将雀庄查询
   link: https://r-mj.com/
   image: /assets/images/mjmap.png
   description: 全国立直麻将雀庄地址和信息查询
+
+- name: 电脑麻将-何切解答
+  link: https://kobalab.net/majiang/dapai.html
+  image: /assets/images/project_kobalab.png
+  description: 电脑麻将-何切解答机
+
+- name: Akagi (Github)
+  link: https://github.com/shinkuan/Akagi
+  image: /assets/images/project_akagi.png
+  description: Python 编写的麻将 AI 和机器人
+
+- name: 麻将小助手 (Github)
+  link: https://github.com/EndlessCheng/mahjong-helper
+  image: /assets/images/project_helper.png
+  description: 日本麻将助手：牌效+防守+记牌
