@@ -15,7 +15,7 @@ site-image: /assets/images/logo.png
 # Keywords of the Site
 site-keywords: Mahjong Copilot, Riichi, 雀魂, AI, 立直麻将
 # URL for the Image of custom Favicon
-favicon-url: /assets/images/logo.png
+favicon-url: /assets/images/icon.ico
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: /assets/images/ms_bg.jpg
